@@ -230,9 +230,9 @@ Se incluye una colección exportada para realizar pruebas desde **Postman**:
 | Autenticación JWT | ✅ Implementado |
 | Swagger | ✅ Activo |
 | Migraciones EF Core | ✅ Incluidas |
-| Seed de usuario Admin | ✅ Pendiente |
+| Seed de usuario Admin | ✅ Implementado |
 | Dockerfile y docker-compose | ❌ Pendiente |
-| Colección Postman | ✅ Pendiente |
+| Colección Postman | ✅ Implementado |
 | Pruebas unitarias | ❌ Pendiente |
 | Despliegue online | ❌ Pendiente |
 
