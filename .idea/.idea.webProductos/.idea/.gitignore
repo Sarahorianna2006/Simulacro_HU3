@@ -11,6 +11,12 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# Ignorar archivos grandes o innecesarios
+*.deb
+*.zip
+*.mp4
+*.exe
 bin/
 obj/
 node_modules/
+
