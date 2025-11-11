@@ -1,0 +1,11 @@
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Domain/bin/Debug/net8.0/webProductos.Domain.deps.json
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Domain/bin/Debug/net8.0/webProductos.Domain.dll
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Domain/bin/Debug/net8.0/webProductos.Domain.pdb
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Domain/obj/Debug/net8.0/webProductos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Domain/obj/Debug/net8.0/webProductos.Domain.AssemblyInfoInputs.cache
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Domain/obj/Debug/net8.0/webProductos.Domain.AssemblyInfo.cs
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Domain/obj/Debug/net8.0/webProductos.Domain.csproj.CoreCompileInputs.cache
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Domain/obj/Debug/net8.0/webProductos.Domain.dll
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Domain/obj/Debug/net8.0/refint/webProductos.Domain.dll
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Domain/obj/Debug/net8.0/webProductos.Domain.pdb
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Domain/obj/Debug/net8.0/ref/webProductos.Domain.dll

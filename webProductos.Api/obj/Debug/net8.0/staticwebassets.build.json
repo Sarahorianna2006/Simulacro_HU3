@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "B+NPaGq8Bm+oFkzbxxPtplHmeEEOoecTj2GiZJlmrHo=",
+  "Source": "webProductos.Api",
+  "BasePath": "_content/webProductos.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "webProductos.Api/wwwroot",
+      "Source": "webProductos.Api",
+      "ContentRoot": "/home/sarah/Escritorio/HU3_Simulacro/webProductos.Api/wwwroot/",
+      "BasePath": "_content/webProductos.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/sarah/Escritorio/HU3_Simulacro/webProductos.Api/wwwroot/swagger-role.js",
+      "SourceId": "webProductos.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/sarah/Escritorio/HU3_Simulacro/webProductos.Api/wwwroot/",
+      "BasePath": "_content/webProductos.Api",
+      "RelativePath": "swagger-role.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/swagger-role.js"
+    }
+  ]
+}

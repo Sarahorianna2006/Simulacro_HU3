@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/home/sarah/Escritorio/HU3_Simulacro/webProductos.Api/wwwroot/swagger-role.js",
+      "PackagePath": "staticwebassets/swagger-role.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.webProductos.Api.props",
+      "PackagePath": "build\\webProductos.Api.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.webProductos.Api.props",
+      "PackagePath": "buildMultiTargeting\\webProductos.Api.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.webProductos.Api.props",
+      "PackagePath": "buildTransitive\\webProductos.Api.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.webProductos.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

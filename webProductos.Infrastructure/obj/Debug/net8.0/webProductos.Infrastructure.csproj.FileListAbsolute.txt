@@ -1,0 +1,17 @@
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/bin/Debug/net8.0/webProductos.Infrastructure.deps.json
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/bin/Debug/net8.0/webProductos.Infrastructure.runtimeconfig.json
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/bin/Debug/net8.0/webProductos.Infrastructure.dll
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/bin/Debug/net8.0/webProductos.Infrastructure.pdb
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/bin/Debug/net8.0/webProductos.Domain.dll
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/bin/Debug/net8.0/webProductos.Domain.pdb
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/obj/Debug/net8.0/webProductos.Infrastructure.csproj.AssemblyReference.cache
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/obj/Debug/net8.0/webProductos.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/obj/Debug/net8.0/webProductos.Infrastructure.AssemblyInfoInputs.cache
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/obj/Debug/net8.0/webProductos.Infrastructure.AssemblyInfo.cs
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/obj/Debug/net8.0/webProductos.Infrastructure.csproj.CoreCompileInputs.cache
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/obj/Debug/net8.0/webProdu.78CE268B.Up2Date
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/obj/Debug/net8.0/webProductos.Infrastructure.dll
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/obj/Debug/net8.0/refint/webProductos.Infrastructure.dll
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/obj/Debug/net8.0/webProductos.Infrastructure.pdb
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/obj/Debug/net8.0/webProductos.Infrastructure.genruntimeconfig.cache
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/obj/Debug/net8.0/ref/webProductos.Infrastructure.dll
