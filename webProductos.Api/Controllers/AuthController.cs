@@ -15,10 +15,8 @@ public class AuthController : ControllerBase
     {
         _authService = authService;
     }
-
-    /// <summary>
-    /// Endpoint para registrar un nuevo usuario.
-    /// </summary>
+    
+    // Endpoint para registrar un nuevo usuario.
     [HttpPost("register")]
     public async Task<IActionResult> Register(RegisterDto dto)
     {
@@ -38,10 +36,8 @@ public class AuthController : ControllerBase
             return BadRequest(new { error = ex.Message });
         }
     }
-
-    /// <summary>
-    /// Endpoint para iniciar sesión y obtener un token JWT.
-    /// </summary>
+    
+    // Endpoint para iniciar sesión y obtener un token JWT.
     [HttpPost("login")]
     public async Task<IActionResult> Login(LoginDto dto)
     {
@@ -51,4 +47,25 @@ public class AuthController : ControllerBase
 
         return Ok(new { token });
     }
+    
+    // endpoint para refrescar tokens
+    [HttpPost("refresh")]
+    public async Task<IActionResult> Refresh([FromBody] string refreshToken)
+    {
+        try
+        {
+            var result = await _authService.RefreshTokenAsync(refreshToken);
+
+            return Ok(new
+            {
+                token = result.newJwt,
+                refreshToken = result.newRefreshToken
+            });
+        }
+        catch (Exception ex)
+        {
+            return Unauthorized(new { message = ex.Message });
+        }
+    }
+
 }

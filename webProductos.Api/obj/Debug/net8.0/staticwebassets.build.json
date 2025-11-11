@@ -1,1 +1,39 @@
-{"Version":1,"Hash":"MVPqxgZaYcGxmbDDu9ls6bOgm7+H5scaxov1QTP8pF4=","Source":"webProductos.Api","BasePath":"_content/webProductos.Api","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[{"Name":"webProductos.Api/wwwroot","Source":"webProductos.Api","ContentRoot":"/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Api/wwwroot/","BasePath":"_content/webProductos.Api","Pattern":"**"}],"Assets":[{"Identity":"/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Api/wwwroot/swagger-role.js","SourceId":"webProductos.Api","SourceType":"Discovered","ContentRoot":"/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Api/wwwroot/","BasePath":"_content/webProductos.Api","RelativePath":"swagger-role#[.{fingerprint}]?.js","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"nt5bnew9v1","Integrity":"O6FfjRudM5EGCfnGQ9CoWmqyr354WOsUu4m9Q//TB00=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot/swagger-role.js","FileLength":1202,"LastWriteTime":"2025-11-11T10:59:07+00:00"}],"Endpoints":[{"Route":"swagger-role.js","AssetFile":"/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Api/wwwroot/swagger-role.js","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"1202"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\"O6FfjRudM5EGCfnGQ9CoWmqyr354WOsUu4m9Q//TB00=\""},{"Name":"Last-Modified","Value":"Tue, 11 Nov 2025 10:59:07 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-O6FfjRudM5EGCfnGQ9CoWmqyr354WOsUu4m9Q//TB00="}]},{"Route":"swagger-role.nt5bnew9v1.js","AssetFile":"/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Api/wwwroot/swagger-role.js","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"1202"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\"O6FfjRudM5EGCfnGQ9CoWmqyr354WOsUu4m9Q//TB00=\""},{"Name":"Last-Modified","Value":"Tue, 11 Nov 2025 10:59:07 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"nt5bnew9v1"},{"Name":"label","Value":"swagger-role.js"},{"Name":"integrity","Value":"sha256-O6FfjRudM5EGCfnGQ9CoWmqyr354WOsUu4m9Q//TB00="}]}]}
+{
+  "Version": 1,
+  "Hash": "t6uuNsfbms97BNidU8BFhwYnKIlLi96jIfXy+UXxjlg=",
+  "Source": "webProductos.Api",
+  "BasePath": "_content/webProductos.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "webProductos.Api/wwwroot",
+      "Source": "webProductos.Api",
+      "ContentRoot": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Api/wwwroot/",
+      "BasePath": "_content/webProductos.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Api/wwwroot/swagger-role.js",
+      "SourceId": "webProductos.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Api/wwwroot/",
+      "BasePath": "_content/webProductos.Api",
+      "RelativePath": "swagger-role.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/swagger-role.js"
+    }
+  ]
+}

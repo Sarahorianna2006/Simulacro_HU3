@@ -2918,19 +2918,19 @@
     ]
   },
   "packageFolders": {
-    "/home/sarah/.nuget/packages/": {}
+    "/home/jb/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj",
+      "projectUniqueName": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj",
       "projectName": "webProductos.Infrastructure",
-      "projectPath": "/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj",
-      "packagesPath": "/home/sarah/.nuget/packages/",
-      "outputPath": "/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/obj/",
+      "projectPath": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj",
+      "packagesPath": "/home/jb/.nuget/packages/",
+      "outputPath": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/sarah/.nuget/NuGet/NuGet.Config"
+        "/home/jb/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2942,8 +2942,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj": {
-              "projectPath": "/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj"
+            "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj": {
+              "projectPath": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj"
             }
           }
         }
@@ -2957,8 +2957,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -2995,7 +2994,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/sarah/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

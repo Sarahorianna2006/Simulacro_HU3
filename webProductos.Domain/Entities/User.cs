@@ -7,4 +7,7 @@ public class User
     public string Email { get; set; } = string.Empty;
     public string PasswordHash { get; set; } = string.Empty; // Contraseña encriptada
     public string Role { get; set; } = "User"; // Rol: puede ser "User" o "Admin"
+    
+    public string? RefreshToken { get; set; }
+    public DateTime? RefreshTokenExpiryTime { get; set; }
 }

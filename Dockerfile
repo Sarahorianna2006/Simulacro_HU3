@@ -8,8 +8,8 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["webProductos.Api/webProductos.Api.csproj", "webProductos.Api/"]
-COPY ["webProductos.Application/webProductos.Application.csproj", "webProductos.Application/"]
 COPY ["webProductos.Domain/webProductos.Domain.csproj", "webProductos.Domain/"]
+COPY ["webProductos.Application/webProductos.Application.csproj", "webProductos.Application/"]
 COPY ["webProductos.Infrastructure/webProductos.Infrastructure.csproj", "webProductos.Infrastructure/"]
 RUN dotnet restore "webProductos.Api/webProductos.Api.csproj"
 COPY . .

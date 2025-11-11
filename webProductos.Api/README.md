@@ -124,11 +124,16 @@ Ejemplo:
   dotnet add package Microsoft.EntityFrameworkCore.Design
   dotnet add package Pomelo.EntityFrameworkCore.MySql
 ```
+**O restaurar paquetes(dependencias)**
+```bash
+    dotnet restore
+```
 
 Para aplicar las migraciones desde la consola del proyecto:
 
 ```bash
-  dotnet ef database update --project webProductos.Infrastructure --startup-project webProductos.Api
+   dotnet ef migrations add Initial --project webProductos.Infrastructure --startup-project webProductos.Api
+   dotnet ef database update --project webProductos.Infrastructure --startup-project webProductos.Api
 ```
 
 ---
