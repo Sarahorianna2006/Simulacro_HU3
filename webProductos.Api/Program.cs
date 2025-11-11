@@ -6,6 +6,7 @@ using System.Text;
 using webProductos.Api.Swagger;
 using webProductos.Application.Services;
 using webProductos.Infrastructure.Data;
+using webProductos.Infrastructure.Seed;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -125,6 +126,12 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast")
 .WithOpenApi();
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    SeedAdmin.Seed(db);
+}
 
 app.Run();
 

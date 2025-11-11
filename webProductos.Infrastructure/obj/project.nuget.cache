@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R3nrJtsXafc=",
+  "dgSpecHash": "4tbJPlqvnhI=",
   "success": true,
-  "projectFilePath": "/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/webProductos.Infrastructure.csproj",
+  "projectFilePath": "/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/sarah/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/sarah/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

@@ -1,0 +1,7 @@
+﻿services:
+  webproductos.api:
+    image: webproductos.api
+    build:
+      context: .
+      dockerfile: webProductos.Api/Dockerfile
+

@@ -10,7 +10,9 @@
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.10",
           "Microsoft.AspNetCore.OpenApi": "8.0.20",
+          "Microsoft.EntityFrameworkCore": "9.0.10",
           "Microsoft.EntityFrameworkCore.Design": "9.0.10",
+          "Pomelo.EntityFrameworkCore.MySql": "9.0.0",
           "Swashbuckle.AspNetCore": "9.0.6",
           "webProductos.Application": "1.0.0",
           "webProductos.Infrastructure": "1.0.0"
@@ -817,7 +819,7 @@
         },
         "runtime": {
           "webProductos.Application.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -825,7 +827,7 @@
       "webProductos.Domain/1.0.0": {
         "runtime": {
           "webProductos.Domain.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -838,7 +840,7 @@
         },
         "runtime": {
           "webProductos.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

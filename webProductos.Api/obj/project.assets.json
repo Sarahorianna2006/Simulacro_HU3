@@ -3582,7 +3582,9 @@
     "net8.0": [
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.10",
       "Microsoft.AspNetCore.OpenApi >= 8.0.20",
+      "Microsoft.EntityFrameworkCore >= 9.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.10",
+      "Pomelo.EntityFrameworkCore.MySql >= 9.0.0",
       "Swashbuckle.AspNetCore >= 9.0.6",
       "webProductos.Application >= 1.0.0",
       "webProductos.Infrastructure >= 1.0.0"
@@ -3594,11 +3596,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sarah/Escritorio/HU3_Simulacro/webProductos.Api/webProductos.Api.csproj",
+      "projectUniqueName": "/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Api/webProductos.Api.csproj",
       "projectName": "webProductos.Api",
-      "projectPath": "/home/sarah/Escritorio/HU3_Simulacro/webProductos.Api/webProductos.Api.csproj",
+      "projectPath": "/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Api/webProductos.Api.csproj",
       "packagesPath": "/home/sarah/.nuget/packages/",
-      "outputPath": "/home/sarah/Escritorio/HU3_Simulacro/webProductos.Api/obj/",
+      "outputPath": "/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/sarah/.nuget/NuGet/NuGet.Config"
@@ -3613,11 +3615,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/sarah/Escritorio/HU3_Simulacro/webProductos.Application/webProductos.Application.csproj": {
-              "projectPath": "/home/sarah/Escritorio/HU3_Simulacro/webProductos.Application/webProductos.Application.csproj"
+            "/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Application/webProductos.Application.csproj": {
+              "projectPath": "/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Application/webProductos.Application.csproj"
             },
-            "/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/webProductos.Infrastructure.csproj": {
-              "projectPath": "/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/webProductos.Infrastructure.csproj"
+            "/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj": {
+              "projectPath": "/home/sarah/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj"
             }
           }
         }
@@ -3631,7 +3633,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -3645,11 +3648,19 @@
             "target": "Package",
             "version": "[8.0.20, )"
           },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[9.0.10, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
             "version": "[9.0.10, )"
+          },
+          "Pomelo.EntityFrameworkCore.MySql": {
+            "target": "Package",
+            "version": "[9.0.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -3675,7 +3686,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/sarah/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
