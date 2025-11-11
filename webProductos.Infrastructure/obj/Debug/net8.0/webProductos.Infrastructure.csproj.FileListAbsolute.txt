@@ -15,3 +15,4 @@
 /home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/obj/Debug/net8.0/webProductos.Infrastructure.pdb
 /home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/obj/Debug/net8.0/webProductos.Infrastructure.genruntimeconfig.cache
 /home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/obj/Debug/net8.0/ref/webProductos.Infrastructure.dll
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Infrastructure/obj/Debug/net8.0/webProductos.Infrastructure.sourcelink.json

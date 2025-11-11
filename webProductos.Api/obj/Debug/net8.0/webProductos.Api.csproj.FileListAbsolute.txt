@@ -149,3 +149,4 @@
 /home/sarah/Escritorio/HU3_Simulacro/webProductos.Api/obj/Debug/net8.0/webProductos.Api.pdb
 /home/sarah/Escritorio/HU3_Simulacro/webProductos.Api/obj/Debug/net8.0/webProductos.Api.genruntimeconfig.cache
 /home/sarah/Escritorio/HU3_Simulacro/webProductos.Api/obj/Debug/net8.0/ref/webProductos.Api.dll
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Api/obj/Debug/net8.0/webProductos.Api.sourcelink.json

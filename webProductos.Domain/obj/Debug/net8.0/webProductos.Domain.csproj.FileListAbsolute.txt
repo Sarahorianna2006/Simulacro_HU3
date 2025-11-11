@@ -9,3 +9,4 @@
 /home/sarah/Escritorio/HU3_Simulacro/webProductos.Domain/obj/Debug/net8.0/refint/webProductos.Domain.dll
 /home/sarah/Escritorio/HU3_Simulacro/webProductos.Domain/obj/Debug/net8.0/webProductos.Domain.pdb
 /home/sarah/Escritorio/HU3_Simulacro/webProductos.Domain/obj/Debug/net8.0/ref/webProductos.Domain.dll
+/home/sarah/Escritorio/HU3_Simulacro/webProductos.Domain/obj/Debug/net8.0/webProductos.Domain.sourcelink.json
