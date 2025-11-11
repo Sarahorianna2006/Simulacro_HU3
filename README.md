@@ -90,11 +90,11 @@ HU3_Simulacro/
 
 | Método | Endpoint | Descripción | Requiere Token |
 |---------|-----------|--------------|----------------|
-| `GET` | `/api/products` | Lista todos los productos | ✅ |
-| `GET` | `/api/products/{id}` | Obtiene producto por ID | ✅ |
-| `POST` | `/api/products` | Crea un nuevo producto | ✅ |
-| `PUT` | `/api/products/{id}` | Actualiza un producto existente | ✅ |
-| `DELETE` | `/api/products/{id}` | Elimina un producto | ✅ |
+| `GET` | `/api/product` | Lista todos los productos | ✅ |
+| `GET` | `/api/product/{id}` | Obtiene producto por ID | ✅ |
+| `POST` | `/api/product` | Crea un nuevo producto | ✅ |
+| `PUT` | `/api/product/{id}` | Actualiza un producto existente | ✅ |
+| `DELETE` | `/api/product/{id}` | Elimina un producto | ✅ |
 
 **Ejemplo de creación de producto:**
 ```json
@@ -118,11 +118,45 @@ Ejemplo:
   "DefaultConnection": "Server=localhost;Database=webproductosdb;User Id=root;Password=123456;"
 }
 ```
+**Tener paquetes instalados**
+```bash
+  dotnet add package Microsoft.EntityFrameworkCore
+  dotnet add package Microsoft.EntityFrameworkCore.Design
+  dotnet add package Pomelo.EntityFrameworkCore.MySql
+```
 
 Para aplicar las migraciones desde la consola del proyecto:
 
 ```bash
-dotnet ef database update --project webProductos.Infrastructure --startup-project webProductos.Api
+  dotnet ef database update --project webProductos.Infrastructure --startup-project webProductos.Api
+```
+
+---
+
+## **Seeder de usuario administrador**
+Para garantizar el acceso inicial, se implementó un `SeedAdmin` que crea automáticamente un usuario 
+administrador al ejecutar la API si la base de datos está vacía.
+
+### Archivo:
+`webProductos.Infrastructure/Seed/SeedAdmin.cs`
+
+### Usuario creado automáticamente:
+
+| Campo | Valor |
+|---------|-----------|
+| Username | admin |
+| Email | admin@local | 
+| PasswordHash | Admin123! | 
+| Rol | Admin| 
+
+El seeder se ejecuta en el `Program.cs` al iniciar la aplicación:
+
+```csharp
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    SeedAdmin.Seed(db);
+}
 ```
 
 ---
@@ -133,17 +167,56 @@ dotnet ef database update --project webProductos.Infrastructure --startup-projec
 2. Verifica que la base de datos esté configurada en `appsettings.json`.
 3. Abre la consola de comandos en el proyecto raíz.
 4. Ejecuta:
-   ```bash
-   dotnet run --project webProductos.Api
-   ```
-5. Accede a **Swagger** en: [http://localhost:5080/swagger](http://localhost:5080/swagger)
+```bash
+  dotnet run --project webProductos.Api
+  ```
+5. Accede a **Swagger** en: [http://localhost:5116/swagger](http://localhost:5080/swagger)
 
 ---
 
-## Pruebas
+## Colección Postman (Pruebas de API)
 
-Actualmente no se han implementado pruebas unitarias.  
-Se planea agregar un proyecto `webProductos.Tests` con casos de prueba para los servicios de `Auth` y `Products`.
+Se incluye una colección exportada para realizar pruebas desde **Postman**:
+
+- **Archivo:** `HU3-webProductos.postman_collection.json`
+- **Ubicación:** en la raíz del proyecto.
+- **Formato:** Collection v2.1 (recomendado)
+
+---
+
+## Contenido de la colección
+
+| Request | Método | Descripción |
+|----------|---------|-------------|
+| Auth - Register | POST | Registra un nuevo usuario |
+| Auth - Login | POST | Inicia sesión y guarda el token JWT |
+| Products - Get All | GET | Obtiene todos los productos |
+| Products - Create | POST | Crea un nuevo producto (requiere token) |
+| Users - Get All | GET | Obtiene todos los usuarios (solo Admin) |
+
+## **Variables incluidas**
+| Variable | Ejemplo de valor | Descripción |
+|----------|---------|-------------|
+| `baseUrl` | `http://localhost:5080` | URL base del servidor local |
+| `token` | (se genera automáticamente al hacer login) | JWT para autenticación |
+
+## **Cómo importar la colección**
+
+**1.** Abre Postman.
+
+**2.** Haz clic en **Import** → selecciona el archivo `HU3-webProductos.postman_collection.json`.
+
+**3.** Ejecuta las peticiones en este orden:
+
+ - **Auth - Register**
+
+ - **Auth - Login**
+
+ - **Products - Get All**
+
+ - **Products - Create**
+
+ - **Users - Get All**
 
 ---
 
@@ -157,9 +230,9 @@ Se planea agregar un proyecto `webProductos.Tests` con casos de prueba para los 
 | Autenticación JWT | ✅ Implementado |
 | Swagger | ✅ Activo |
 | Migraciones EF Core | ✅ Incluidas |
-| Seed de usuario Admin | ❌ Pendiente |
+| Seed de usuario Admin | ✅ Implementado |
 | Dockerfile y docker-compose | ❌ Pendiente |
-| Colección Postman | ❌ Pendiente |
+| Colección Postman | ✅ Implementado |
 | Pruebas unitarias | ❌ Pendiente |
 | Despliegue online | ❌ Pendiente |
 
@@ -167,10 +240,8 @@ Se planea agregar un proyecto `webProductos.Tests` con casos de prueba para los 
 
 ## Próximos pasos sugeridos
 
-1. Agregar **DataSeeder** para crear un usuario administrador por defecto.
-2. Implementar pruebas unitarias (xUnit) en la capa Application.
-3. Crear colección Postman para validar endpoints.
-4. Añadir Dockerfile y docker-compose.yml para despliegue local.
-5. Desplegar la API en un servicio en la nube (Render, Railway, Azure).
+1. Implementar pruebas unitarias (xUnit) en la capa Application.
+2. Añadir Dockerfile y docker-compose.yml para despliegue local.
+3. Desplegar la API en un servicio en la nube (Render, Railway, Azure).
 
 ---
