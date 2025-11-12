@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = webProductos.Infrastructure
-build_property.ProjectDir = /home/sergio/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/
+build_property.ProjectDir = /home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

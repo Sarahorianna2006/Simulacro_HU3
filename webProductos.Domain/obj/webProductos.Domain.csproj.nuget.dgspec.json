@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj": {}
+    "/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj": {}
   },
   "projects": {
-    "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj": {
+    "/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj",
+        "projectUniqueName": "/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj",
         "projectName": "webProductos.Domain",
-        "projectPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj",
-        "packagesPath": "/home/sergio/.nuget/packages/",
-        "outputPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Domain/obj/",
+        "projectPath": "/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj",
+        "packagesPath": "/home/cohorte4/.nuget/packages/",
+        "outputPath": "/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/sergio/.nuget/NuGet/NuGet.Config"
+          "/home/cohorte4/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

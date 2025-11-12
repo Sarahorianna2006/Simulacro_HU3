@@ -1266,6 +1266,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "BCrypt.Net-Next": "4.0.3",
           "Microsoft.EntityFrameworkCore": "9.0.10",
           "Pomelo.EntityFrameworkCore.MySql": "9.0.0",
           "webProductos.Domain": "1.0.0"
@@ -3642,19 +3643,19 @@
     ]
   },
   "packageFolders": {
-    "/home/sergio/.nuget/packages/": {}
+    "/home/cohorte4/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Api/webProductos.Api.csproj",
+      "projectUniqueName": "/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Api/webProductos.Api.csproj",
       "projectName": "webProductos.Api",
-      "projectPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Api/webProductos.Api.csproj",
-      "packagesPath": "/home/sergio/.nuget/packages/",
-      "outputPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Api/obj/",
+      "projectPath": "/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Api/webProductos.Api.csproj",
+      "packagesPath": "/home/cohorte4/.nuget/packages/",
+      "outputPath": "/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/sergio/.nuget/NuGet/NuGet.Config"
+        "/home/cohorte4/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3666,11 +3667,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Application/webProductos.Application.csproj": {
-              "projectPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Application/webProductos.Application.csproj"
+            "/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Application/webProductos.Application.csproj": {
+              "projectPath": "/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Application/webProductos.Application.csproj"
             },
-            "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj": {
-              "projectPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj"
+            "/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj": {
+              "projectPath": "/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj"
             }
           }
         }
