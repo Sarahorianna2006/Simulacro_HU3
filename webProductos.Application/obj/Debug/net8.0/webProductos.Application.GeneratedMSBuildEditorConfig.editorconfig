@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = webProductos.Application
-build_property.ProjectDir = /home/jb/RiderProjects/Simulacro_HU3/webProductos.Application/
+build_property.ProjectDir = /home/sergio/RiderProjects/Simulacro_HU3/webProductos.Application/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

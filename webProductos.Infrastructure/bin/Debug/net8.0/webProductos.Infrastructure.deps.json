@@ -652,10 +652,7 @@
       "System.Threading.Channels/7.0.0": {},
       "webProductos.Domain/1.0.0": {
         "runtime": {
-          "webProductos.Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "webProductos.Domain.dll": {}
         }
       },
       "BCrypt.Net-Next/4.0.3.0": {

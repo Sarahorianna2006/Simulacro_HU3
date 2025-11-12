@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Api/webProductos.Api.csproj": {}
+    "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Api/webProductos.Api.csproj": {}
   },
   "projects": {
-    "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Api/webProductos.Api.csproj": {
+    "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Api/webProductos.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Api/webProductos.Api.csproj",
+        "projectUniqueName": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Api/webProductos.Api.csproj",
         "projectName": "webProductos.Api",
-        "projectPath": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Api/webProductos.Api.csproj",
-        "packagesPath": "/home/jb/.nuget/packages/",
-        "outputPath": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Api/obj/",
+        "projectPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Api/webProductos.Api.csproj",
+        "packagesPath": "/home/sergio/.nuget/packages/",
+        "outputPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jb/.nuget/NuGet/NuGet.Config"
+          "/home/sergio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Application/webProductos.Application.csproj": {
-                "projectPath": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Application/webProductos.Application.csproj"
+              "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Application/webProductos.Application.csproj": {
+                "projectPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Application/webProductos.Application.csproj"
               },
-              "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj": {
-                "projectPath": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj"
+              "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj": {
+                "projectPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj"
               }
             }
           }
@@ -39,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -96,21 +91,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Application/webProductos.Application.csproj": {
+    "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Application/webProductos.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Application/webProductos.Application.csproj",
+        "projectUniqueName": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Application/webProductos.Application.csproj",
         "projectName": "webProductos.Application",
-        "projectPath": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Application/webProductos.Application.csproj",
-        "packagesPath": "/home/jb/.nuget/packages/",
-        "outputPath": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Application/obj/",
+        "projectPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Application/webProductos.Application.csproj",
+        "packagesPath": "/home/sergio/.nuget/packages/",
+        "outputPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jb/.nuget/NuGet/NuGet.Config"
+          "/home/sergio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -122,11 +117,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj": {
-                "projectPath": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj"
+              "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj": {
+                "projectPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj"
               },
-              "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj": {
-                "projectPath": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj"
+              "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj": {
+                "projectPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj"
               }
             }
           }
@@ -135,11 +130,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -183,21 +173,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj": {
+    "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj",
+        "projectUniqueName": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj",
         "projectName": "webProductos.Domain",
-        "projectPath": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj",
-        "packagesPath": "/home/jb/.nuget/packages/",
-        "outputPath": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Domain/obj/",
+        "projectPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj",
+        "packagesPath": "/home/sergio/.nuget/packages/",
+        "outputPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jb/.nuget/NuGet/NuGet.Config"
+          "/home/sergio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -215,11 +205,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -241,21 +226,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj": {
+    "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj",
+        "projectUniqueName": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj",
         "projectName": "webProductos.Infrastructure",
-        "projectPath": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj",
-        "packagesPath": "/home/jb/.nuget/packages/",
-        "outputPath": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/obj/",
+        "projectPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/webProductos.Infrastructure.csproj",
+        "packagesPath": "/home/sergio/.nuget/packages/",
+        "outputPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jb/.nuget/NuGet/NuGet.Config"
+          "/home/sergio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -267,8 +252,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj": {
-                "projectPath": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj"
+              "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj": {
+                "projectPath": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Domain/webProductos.Domain.csproj"
               }
             }
           }
@@ -277,11 +262,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -319,7 +299,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

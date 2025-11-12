@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t6uuNsfbms97BNidU8BFhwYnKIlLi96jIfXy+UXxjlg=",
+  "Hash": "TTlbLLYRPZ1i8b2dqeX5ljkiy/wuTFfxZkmzCGWvCQk=",
   "Source": "webProductos.Api",
   "BasePath": "_content/webProductos.Api",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "webProductos.Api/wwwroot",
       "Source": "webProductos.Api",
-      "ContentRoot": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Api/wwwroot/",
+      "ContentRoot": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Api/wwwroot/",
       "BasePath": "_content/webProductos.Api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Api/wwwroot/swagger-role.js",
+      "Identity": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Api/wwwroot/swagger-role.js",
       "SourceId": "webProductos.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/jb/RiderProjects/Simulacro_HU3/webProductos.Api/wwwroot/",
+      "ContentRoot": "/home/sergio/RiderProjects/Simulacro_HU3/webProductos.Api/wwwroot/",
       "BasePath": "_content/webProductos.Api",
       "RelativePath": "swagger-role.js",
       "AssetKind": "All",

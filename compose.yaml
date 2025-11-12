@@ -5,3 +5,9 @@
       context: .
       dockerfile: webProductos.Api/Dockerfile
 
+  webproductos.api-1:
+    image: webproductos.api-1
+    build:
+      context: .
+      dockerfile: webProductos.Api/Dockerfile
+
