@@ -54,8 +54,8 @@ HU3_Simulacro/
 
 | Método | Endpoint | Descripción | Requiere Token |
 |---------|-----------|--------------|----------------|
-| `POST` | `/api/auth/register` | Registro de usuario nuevo | ❌ |
-| `POST` | `/api/auth/login` | Inicia sesión y devuelve token JWT | ❌ |
+| `POST` | `/api/auth/register` | Registro de usuario nuevo | ✅  |
+| `POST` | `/api/auth/login` | Inicia sesión y devuelve token JWT | ✅  |
 
 **Ejemplo de registro:**
 ```json
@@ -120,6 +120,7 @@ Ejemplo:
 ```
 **Tener paquetes instalados**
 ```bash
+  cd webProductos.Infrastructure
   dotnet add package Microsoft.EntityFrameworkCore
   dotnet add package Microsoft.EntityFrameworkCore.Design
   dotnet add package Pomelo.EntityFrameworkCore.MySql

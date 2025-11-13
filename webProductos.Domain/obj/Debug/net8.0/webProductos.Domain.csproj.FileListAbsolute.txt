@@ -46,3 +46,15 @@
 /home/sergio/RiderProjects/Simulacro_HU3/webProductos.Domain/obj/Debug/net8.0/refint/webProductos.Domain.dll
 /home/sergio/RiderProjects/Simulacro_HU3/webProductos.Domain/obj/Debug/net8.0/webProductos.Domain.pdb
 /home/sergio/RiderProjects/Simulacro_HU3/webProductos.Domain/obj/Debug/net8.0/ref/webProductos.Domain.dll
+/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Domain/bin/Debug/net8.0/webProductos.Domain.deps.json
+/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Domain/bin/Debug/net8.0/webProductos.Domain.dll
+/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Domain/bin/Debug/net8.0/webProductos.Domain.pdb
+/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Domain/obj/Debug/net8.0/webProductos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Domain/obj/Debug/net8.0/webProductos.Domain.AssemblyInfoInputs.cache
+/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Domain/obj/Debug/net8.0/webProductos.Domain.AssemblyInfo.cs
+/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Domain/obj/Debug/net8.0/webProductos.Domain.csproj.CoreCompileInputs.cache
+/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Domain/obj/Debug/net8.0/webProductos.Domain.sourcelink.json
+/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Domain/obj/Debug/net8.0/webProductos.Domain.dll
+/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Domain/obj/Debug/net8.0/refint/webProductos.Domain.dll
+/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Domain/obj/Debug/net8.0/webProductos.Domain.pdb
+/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Domain/obj/Debug/net8.0/ref/webProductos.Domain.dll
