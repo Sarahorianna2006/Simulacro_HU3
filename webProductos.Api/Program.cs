@@ -49,13 +49,23 @@ builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<ProductService>();
 builder.Services.AddScoped<AuthService>();
 
+// Configuración de CORS (para permitir React local)
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp", policy =>
+    {
+        policy.WithOrigins("http://localhost:5173") // URL de tu frontend
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
 // Configuración de Swagger con soporte para JWT
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new OpenApiInfo { Title = "webProductos.Api", Version = "v1" });
-
 
     // Botón “Authorize” en Swagger
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -100,7 +110,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// Estos deben ir ANTES de MapControllers()
+// Activar CORS antes de autenticación
+app.UseCors("AllowReactApp");
+
 app.UseAuthentication();
 app.UseAuthorization();
 
@@ -127,6 +139,7 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 
+// eed para crear usuario admin por defecto
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();

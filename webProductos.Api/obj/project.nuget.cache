@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OC6EJMIPV4Q=",
+  "dgSpecHash": "UJfhfe9tCQQ=",
   "success": true,
   "projectFilePath": "/home/cohorte4/RiderProjects/Simulacro_HU3/webProductos.Api/webProductos.Api.csproj",
   "expectedPackageFiles": [
@@ -63,7 +63,10 @@
     "/home/cohorte4/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/home/cohorte4/.nuget/packages/system.text.encodings.web/9.0.10/system.text.encodings.web.9.0.10.nupkg.sha512",
     "/home/cohorte4/.nuget/packages/system.text.json/9.0.10/system.text.json.9.0.10.nupkg.sha512",
-    "/home/cohorte4/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+    "/home/cohorte4/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
+    "/home/cohorte4/.nuget/packages/microsoft.netcore.app.ref/8.0.21/microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
+    "/home/cohorte4/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.21/microsoft.aspnetcore.app.ref.8.0.21.nupkg.sha512",
+    "/home/cohorte4/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.21/microsoft.netcore.app.host.linux-x64.8.0.21.nupkg.sha512"
   ],
   "logs": []
 }
